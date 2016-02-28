@@ -1,0 +1,36 @@
+{
+  "name": "discovery-etcd",
+  "version": "1.0.0",
+  "description": "A node.js library to use discovery.etcd.io service.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint */**.js",
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juneil/discovery-etcd.git"
+  },
+  "keywords": [
+    "etcd",
+    "discovery",
+    "service"
+  ],
+  "author": "Julien FAUVILLE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juneil/discovery-etcd/issues"
+  },
+  "homepage": "https://github.com/Juneil/discovery-etcd#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "rewire": "^2.5.1"
+  }
+}
